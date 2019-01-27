@@ -1,0 +1,303 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c850236/v850236553/1d0d/RGF_1gOPNxs.jpg');
+  border-radius: 50%;
+  background-size: 300%;
+  background-position: center 25%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  margin-right: 34px;
+  position:relative;
+  display: inline-block;
+}
+.menu-list a, .menu-button {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.menu-button {
+  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid #2b2a2c;
+  border-radius: 50px;
+  padding: 13px 22px;
+  color: #2b2a2c;
+  cursor: pointer;
+  transition: .7s;
+}
+.menu-button:hover {
+  color: #fff;
+  background: #000;
+}
+.menu-list a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #2b2a2c;
+  transition: width .3s ease-in;
+  position:absolute;
+
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+  width: 100%;
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://wmpics.pics/di-CFIR.png') no-repeat right bottom;
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+  font-size: 25px;
+}
+.behance-bg {
+  background: #1869ff;
+}
+.facebook-bg {
+  background: #3a5898;
+}
+.instagram-bg{
+  background: #13578a;
+}
+.vk-bg {
+  background: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+  color: #fff;
+  transition: .7s;
+}
+.button:hover {
+  background: #3a5898;
+  color: #fff;
+}
+
+.button-primary {
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+.button-o {
+  background: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.progect-card__image {
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.landing-page {
+  background: url('https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg') center;
+  background-size: cover;
+}
+.landing-page_new {
+  background: url('https://gasar.ru/wp-content/uploads/2016/06/lp-1.jpg') center no-repeat;
+  background-size: cover;
+}
+.corporate-page {
+  background: url('https://webemot.com/img/works/kit-sait/kit4-2.jpg') center;
+  background-size: cover;
+}
+.corporate-page_consalting {
+  background: url('https://yavorsky.ru/upload/iblock/068/6.jpg') center no-repeat;
+  background-size: cover;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+
+.footer-social_link {
+  font-size: 20px;
+  margin-right: 13px;
+  text-decoration: none;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #6a696b;
+  padding: 8px 22px; 
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+}
+  .project-card {
+    width: 48%;
+}
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+}
+    .project-card {
+    width: 48%;
+}
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+}
+    .project-card {
+    width: 95%;
+      margin: 30px auto;
+}
+  .description-small {
+    font-size: 10px;
+}
+  .menu-list {
+    display: none;
+}
+  .menu-list a{
+    font-size: 12px;
+}
+  .hero {
+    padding-bottom: 550px;
+    padding-top: 30px;
+}
+}
